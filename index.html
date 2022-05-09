@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedor_Dergachev | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/slash.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <ul class="menu">
+                    <div class="home"><li><a href="#" class="menu__item menu_item_home menu_item_underluned">Home</a></li><div class="underline"></div></div>
+                    <li><a href="#aboutemeid" class="menu__item menu_item_about">About me</a></li>
+                    <li><a href="portfolio.html" class="menu__item menu_item_portfolio">Portfolio</a></li>
+                    <li><a href="brief.html" class="menu__item menu_item_brief">Brief</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="homepage">
+        <div class="container">
+            <img alt="Photo" class="homepage_item bgimage" src= "img/Photo.jpg">
+            <div class="homepage_item title">
+                <h1 class="title">Fedor_Dergachev</h1>
+                <p class="subtitle">Web desiner, front end developer,<br>
+                graphic designer.</p>
+                <a href="#contactid" class="contactbtn">[Contact]</a>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="slider">
+            <div class="slider__item">
+                <img src="img/wipcard.png" alt="" class="slider_image">
+            </div>
+            <div class="slider__item">
+                <img src="img/image.png" alt="" class="slider_image">
+            </div>
+            <div class="slider__item">
+                <img src="img/wipcard.png" alt="" class="slider_image">
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/slick.min.js"></script>
+    </div>
+    <!--<div class="container">
+        <div class="cards">
+            <div class="cards__item cards_item_windowl"> 
+                <img src="../img/window.png" alt=""class="windowl">
+                <img src="../img/image.png" alt="" class="cards_image_s">
+            </div>
+            <div class="cards__item cards_item_windownm">
+               <img src="../img/window.png" alt="">
+               <img src="../img/image.png" alt="" class="cards_image"> 
+            </div>
+            <div class="cards__item cards_item_windowr">    
+                <img src="../img/window.png" alt="" class="windowr">
+                <img src="../img/image.png" alt="" class="cards_image_s">    
+            </div>
+        </div>
+        <div class="bulets">
+            <div class="bulets__item bulets_item_left"></div>
+            <div class="bulets__item bulets_item_midle"></div>
+            <div class="bulets__item bulets_item_right"></div>
+        </div>
+    </div>-->
+    <section id="aboutemeid" class="abouteme">
+        <div class="container">
+            <div class="abouteme">
+                <img src="img/arrow.png" alt="scroll"class="abouteme__item adoutme_item_arrow">
+                <div class="abouteme__item adoutme_item_text">
+                    <div class="abouteme__text">
+                        <h1 class="abouteme__text__item abouteme_text_title">Aboute me</h1>
+                        <p class="abouteme__text__item abouteme_text_subtitle">
+                        I am a graphic designer and front end developer from Ukraine. I have been designing for a year now, but in UI / UX and
+                        front end I came recently,half a year ago. During this time, my portfolio has accumulated a few works that you should
+                        take a look at. All work is completed on time and
+                        qualitatively.
+                        </p>
+                    </div>
+                    <div class="contact__text">
+                        <p class="contact__text__item contact_text_subtitle ">I am engaged in the development of logos, corporate identity, banners, as well as UI/UX design and web sites
+                        development. I will be glad to receive an order from you.</p>
+                        <h1 id="contactid" class="contact__text__item contact_text_title ">Contact me</h1>
+                        <p class="contact__text__item contact_text_subtitle ">You can fill in the brief or leave your proposal here.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="contact">
+                    <div class="contact__item contact_item_form">
+                        <form action="#" method="post" class="form">
+                            <input type="text" class="input__text input_text_name" name="Name" placeholder="Name" value="">
+                            <input type="text" class="input__text input_text_email" name="Email" placeholder="E-mail" value="">
+                            <p class="textarea_message">Message</p>
+                            <textarea name="message" id="" cols="" rows="" class="input__textarea" ></textarea>
+                            <button class="input__btn" type="submit">
+                                <p class="btn_text">Contact</p>
+                                <p class="btn_text btn_text_arrow">-></p>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="contact__item contact_item_brief">
+                        <p class="brief_text">
+                        SPECIAL OFFER <br>
+                        <br>
+                        Filling out the brief now gives you a discount of -10% for the cost of work from 20$.Fill in the Brief now?(y/n)
+                        <br>
+                        <br>
+                        C:\User>
+                        </p>
+                        <div class="brief_btn">
+                                <a href="brief.html" class="brief_yes_text">
+                                    Yes
+                                </a>
+                                <a href="#" class="brief_no_text">
+                                    No
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container"> 
+            <div class="footer__item footer_item_text"><p class="footer_text"><span>My speciality: </span>banners, logo designe, UI/UX designe, front end dev.</p></div>
+        </div>
+        <div class="footer__item footer_telegram">
+            <a href="https://t.me/fedia_dergachev" target="_blank" class=" ">
+                <img src="img/Telegram.png" alt="Telegram" class="footer_icon_telegram">
+            </a>
+        </div>
+        <div class="footer__item footer_item_contact">
+            <p class="contact_text">&copy; Fedor Dergachev, 2022</p>
+            <p class="contact_text">+38(068)202-38-76</p>
+            <p class="contact_text">fdeordergachev@gmail.com</p>
+            <p class="contact_text">Odessa, Marselska st.</p>
+        </div>
+    </footer>
+</body>
+</html>
